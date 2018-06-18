@@ -1,0 +1,20 @@
+{
+    "name": "dynamis/theme-options",
+    "license": "MIT",
+    "description": "",
+    "homepage": "https://github.com/dynamis-wp/theme-options",
+    "autoload": {
+        "psr-4": {
+            "Dynamis\\ThemeOptions\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0",
+        "cmb2/cmb2": "^2.4.0",
+        "dynamis/framework": "^1.0"
+    }
+}
